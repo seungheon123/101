@@ -1,8 +1,6 @@
 package com.example.demo.Day8;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 
