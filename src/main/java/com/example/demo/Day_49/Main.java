@@ -33,7 +33,7 @@ public class Main {
         int tempHeight = calculate(heightIndex);
         int tempWidth = calculate(widthIndex);
         int result = (maxHeight * maxWidth) - (tempHeight * tempWidth);
-        result = result * K;
+        result *= K;
         System.out.println(result);
 
     }
