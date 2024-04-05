@@ -21,8 +21,15 @@ public class Main {
             String name = st.nextToken();
             people[i] = new Person(age, name);
         }
+//        Arrays.sort(people, new Comparator<Person>() {
+//            @Override
+//            public int compare(Person o1, Person o2) {
+//                int compare = Integer.compare(o1.age, o2.age);
+//                if(compare == 0) return o1.name.compareTo(o2.name);
+//                return compare;
+//            }
+//        });
         Arrays.sort(people, new Comparator<Person>() {
-
             @Override
             public int compare(Person o1, Person o2) {
                 return o1.age - o2.age;
